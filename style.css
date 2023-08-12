@@ -1,0 +1,145 @@
+:root{
+    --dark:#07172F;
+    --light:#2BFFCC;
+    --text:#DEE6FF;
+}
+*{
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: var(--dark);
+    color: var(--text) ;
+    
+}
+
+nav{
+    box-shadow: 0 10px 10px rgba(255,255,255,0.3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--light);
+}
+nav ul li a:hover{
+    color: var(--text);
+}
+.logo h1 a span{
+    color: var(--text);
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+nav ul{
+    display: flex;
+    padding-right:50px ;
+    
+}
+button{
+    background: var(--light);
+    color: var(--dark);
+    outline: none;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 10px; 
+}
+button:hover{
+   background: var(--text); 
+   border: 2px solid var(--light);
+}
+#a:hover{
+    color: var(--light);
+}
+button a{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#Home #text{
+    font-size: 2.2rem;
+    padding: 0 20px;
+    line-height: 50px;
+}
+#Home{
+   position: absolute;
+   padding-top: 2%;
+   text-align:center;
+   margin-top: 20%;
+}
+#Home h2{
+    color: var(--light);
+    font-size: 50px;
+}
+#Home h3{
+    font-size: 4rem;
+}
+#Home h1{
+    font-size: 4em;
+    word-spacing: 20px;
+    color: var(--light);
+}
+#About{
+    padding-top: 100%;
+    text-align: center;
+    height: 100vh;
+}
+#About h3{
+    font-size: 4rem;
+}
+#About h4{
+    font-size:3rem ;
+    line-height: 60px;
+    
+}
+#About img{
+    width: 700px;
+}
+#Project{
+    margin-top: -400px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#Project h3{
+    text-align: center;
+    font-size: 4rem;
+}
+.project img{
+    width: 18%;
+    text-align: center;
+}
+#Contact{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    padding: 60px;
+}
+#Contact a{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#contact a:hover{
+    color: var(--text);
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:30px;
+}
